@@ -1,0 +1,16 @@
+#Define the base class playerclass player:
+class player:
+ def player(self):
+  print("The player is playing cricket.")
+#Define the drived class batsman class batsman(player):
+ def play(self):
+  print("The batsman is batting.")
+#define the drived class bowler class bowler(player):
+ def play(self):
+  print("The bowler is bowling.")
+#create objects of batsman and bowler classes
+batsman = Batsman()
+bowler = Bowler()
+#call the play() method for each object
+batsman.play()
+bowler.play()
